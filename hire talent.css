@@ -1,0 +1,211 @@
+body{
+    font-family: sans-serif;
+}
+.header{
+width: Hug (1,440px)px;
+height: Hug (88px)px;
+padding: 16px 25px 16px 0px;
+gap: 10px;
+opacity: 0px;
+align-items: center;
+}
+.nav-link{
+    color: black;
+}
+
+.navbar-brand{
+    width: 176px;
+    height: 55px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.nav_end{
+    width: 250px;
+}
+.nav_end span button{
+    width: Fixed (164px)px;
+    height: Hug (56px)px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #330099;
+    box-shadow: 4px 4px 4px 0px #6C2EE738 inset;
+}
+.nav_end button{
+    background-color: #FF6600;
+    width: Fixed (164px)px;
+    height: Hug (56px)px;
+    padding: 16px 32px 16px 32px;
+    gap: 0px;
+    border-radius: 8px;
+    justify-content: space-between;
+    opacity: 0px;
+    border-width: 0px;
+    color: #FFFFFF;
+}
+
+.landing{
+    width: Hug (1,440px)px;
+    height: Hug (1,200px)px;
+    padding: 128px 64px 0px 64px;
+    gap: 10px;
+    opacity: 0px;
+}
+.welcome{
+    width: Hug (1,312px)px;
+    height: Hug (944px)px;
+    gap: 96px;
+    opacity: 0px;
+}
+.welcome_section1{
+    width: 1000px;
+    height: Hug (248px)px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: end;
+}
+.welcome_section1 div h2{
+    width: 600px;
+    height: Hug (48px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 10px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 2px solid #FF6600;
+    margin-bottom: 10px;
+}
+.welcome_section1 div h1{
+    width: 644px;
+    height: 192px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+}
+.welcome_section1 div p{
+    width: 500px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    display: inline-block;
+}
+.welcome_section2{
+width: 1312px;
+height: 600px;
+gap: 0px;
+border-radius: 32px;
+margin-top: 100px;
+}
+
+.welcome_section2 img{
+width: 1000px;
+height: 400px;
+gap: 0px;
+border-radius: 32px;
+opacity: 0px;
+}
+.form_overall{
+    width: Fixed (644px)px;
+    height: 800px;
+    gap: 24px;
+    opacity: 0px;
+}
+.form_cover{
+    width: 600px;
+height: Hug (853px)px;
+gap: 24px;
+opacity: 0px;
+}
+
+.form_cover form button{
+    width: 150px;
+    height: 50px;
+    padding: 16px 32px 16px 32px;
+    gap: 2px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #2763E7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 15px;
+    margin-left: 77%;
+    border-color: none;
+}
+
+.form-group{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form-group input::placeholder{
+    font-size: small;
+    color: #CCCCCC;
+}
+.form-group option {
+    color: #CCCCCC;
+}
+/* footer */
+.footer_section1{
+    width: Fixed (199px)px;
+    height: Hug (34px)px;
+    gap: 10px;
+    opacity: 0px;
+}
+.footer_section1 img{
+    width: 111px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.footer_section2{
+    width: Fixed (199px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    opacity: 0px;
+}
+.list-container{
+    width: Fixed (199px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+.list-group-item {
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+}
+.footer_section3 div input::placeholder{
+    font-size: 12px;
+}
+.input-group-text{
+    background-color: #2763E7;
+    width: Hug (102px)px;
+    height: Hug (48px)px;
+    padding: 12px;
+    gap: 2px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px #037E453D inset;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}

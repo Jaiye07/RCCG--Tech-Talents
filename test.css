@@ -1,0 +1,79 @@
+.nav{
+    color: brown;
+    background-color: aqua;
+}
+.nav-link{
+    color: white;
+}
+
+/* Default styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* Large devices (desktops, 769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: lightcoral;
+    }
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+    body {
+        background-color: lightyellow;
+    }
+    .container {
+        padding: 25px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+}
+
+/* Ultra wide screens (1440px and up) */
+@media only screen and (min-width: 1440px) {
+    body {
+        background-color: lightgray;
+    }
+    .container {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 3.5em;
+    }
+}

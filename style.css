@@ -1,0 +1,650 @@
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    width: 1329px;
+height: Hug (88px)px;
+padding: 16px 30px 16px 30px;
+gap: 10px;
+opacity: 0px;
+align-items: center;
+z-index: 100;
+}
+.nav-link{
+    color: black;
+}
+.background{
+    background: #3D08A685;
+    height: 100vh;
+    width: 1330px;
+}
+
+.navbar-brand{
+    width: 176px;
+    height: 55px;
+    gap: 0px;
+    opacity: 0px;
+}
+/* #banner{
+    background-image: url(images/background.jpeg);
+    background-color: black;
+    width: 100vh;
+    height: 100vh;
+    top: 100px;
+    left: 69px;
+    gap: 0px;
+    opacity: 0px;
+} */
+
+/* landing page */
+.nav_overall{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    height: 88px;
+}
+.nav_mid{
+    /* width: Hug (1000px)px;
+    height: Hug (24px)px; */
+    width: 1000px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+.nav_end{
+    width: 600px;
+}
+.nav_end span button{
+    width: 150px;
+    height: 50px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #330099;
+    box-shadow: 4px 4px 4px 0px #6C2EE738 inset;
+}
+.nav_end button{
+    background-color: #FF6600;
+    width: 150px;
+    height: 50px;
+    padding: 16px 32px 16px 32px;
+    gap: 0px;
+    border-radius: 8px;
+    justify-content: space-between;
+    opacity: 0px;
+    border-width: 0px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+}
+.writeup h1{
+    width: 567px;
+    height: 143px;
+    display: inline-block;
+    /* top: -2977px;
+    left: -187px; */
+    top: -400px;
+    left: 700px;
+    color: #fff;
+    position: absolute;
+    z-index: 10000;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61.5px;
+}
+.writeup p{
+    color: white;
+    width: 650px;
+    height: 96px;
+    position: absolute;
+    top: -270px;
+    left: 550px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: right;
+}
+.writeup div{
+    top: -150px;
+    left: 850px;
+    position: absolute;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+}
+.writeup div span button{
+    background: transparent;
+    width: 150px;
+    height: 50px;
+    top: 490px;
+    left: 545px;
+    gap: 2px;
+    border-radius: 8px;
+    opacity: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    align-items: center;
+}
+.writeup div button{
+    background-color: #FF6600;
+    width: 150px;
+    height: 50px;
+    top: 490px;
+    left: 545px;
+    gap: 2px;
+    border-radius: 8px;
+    opacity: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border-color: none;
+    border-width: 0px;
+}
+
+
+/* about us */
+.about_overall{
+    width: Fixed (1,440px)px;
+    height: Hug (784px)px;
+    top: -2619px;
+    left: -715px;
+    padding: 100px 64px 90px 64px;
+    gap: 10px;
+
+}
+.about{
+    margin-top: 100px;
+    width: 1000px;
+    height: Hug (528px)px;
+    align-items: start;
+    justify-content: center;
+
+}
+.about_left h5{
+    width: 190px;
+    height: Hug (48px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 10px;
+    border: 0px 0px 1px 0px;
+    text-align: left;
+    border-bottom:solid #FF6600 2px;
+    font-size: 20px;
+}
+.about_left h1{
+    width: 418px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+}
+.about_right{
+    width: Hug (644px)px;
+    height: Hug (528px)px;
+    gap: 64px;
+    opacity: 0px;
+}
+.about_right div {
+    width: 644px;
+    height: 192px;
+    margin-bottom: 100px;
+}
+.about_right div p{
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+}
+.about_right div button{
+width: 150px;
+height: 50px;
+padding: 16px 32px 16px 32px;
+gap: 2px;
+border-radius: 8px;
+background-color: #2763E7;
+color: #fff;
+border-width: 0px;
+margin-top: 50px;
+}
+
+
+/* whatwedo */
+.whatwedo_overall{
+    width: Hug (1,440px)px;
+    height: Fixed (1,773px)px;
+    top: -1938px;
+    left: -720px;
+    padding: 128px 64px 128px 64px;
+    gap: 10px;
+    
+}
+.whatwedo_section1{
+    width: Fill (1,312px)px;
+    height: Hug (232px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+.whatwedo_section1 h3{
+    text-align: center;
+    justify-content: center;
+    height: Hug (48px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 10px;
+    /* border-bottom: 1px solid #212121 */
+}
+.whatwedo_section1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+    height: 72px;
+    margin: 20px;
+}
+.whatwedo_section1 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatwedo_section2{
+    width: Hug (1312px)px;
+    height: Hug (1416px)px;
+    justify-content: center;
+    align-items: end;
+
+}
+.whatwedo_section2 div img{
+    width: 600px;
+    height: 550px;
+    border-radius: 50px 0px 0px 50px;
+}
+.whatwedo_writeup{
+    background-color:#F4F4F4;
+    width: Fill (656px)px;
+    height: 550px;
+    padding: 30px;
+    border-radius: 0px 50px 50px 0px;
+}
+.whatwedo_writeup h2{
+    width: 512px;
+    height: 152px;
+    font-size: 40x;
+    font-weight: 200;
+    line-height: 76.5px;
+    text-align: left;
+}
+.whatwedo_writeup p{
+    width: 512px;
+    height: 96px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.whatwedo_writeup button{
+    background-color: #2763E7;
+    box-shadow: 4px 4px 4px 0px #037E453D inset;
+    border-width: 0px;
+    width: 150px;
+    height: 50px;
+    gap: 2px;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+.form-check{
+    width: Fill (512px)px;
+    height: Hug (164px)px;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.form-check label{
+    width: 391px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.whatwedo_section3{
+    width: Hug (1312px)px;
+    height: Hug (1416px)px;
+    justify-content: center;
+    align-items: end;
+
+}
+.whatwedo_section3 div img{
+    width: 600px;
+    height: 500px;
+    border-radius: 0px 50px 50px 0px;
+    margin-top: 50px;
+}
+.whatwedo_writeup2{
+    background-color:#F4F4F4;
+    width: Fill (656px)px;
+    height: Fill (660px)px;
+    padding: 50px;
+    gap: 10px;
+    border-radius: 50px 0px 0px 50px;
+}
+.whatwedo_writeup2 h2{
+    width: 512px;
+    height: 128px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 76.5px;    
+    text-align: left;
+    margin-top: 50px;
+}
+.whatwedo_writeup2 p{
+    width: 512px;
+    height: 96px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    display: inline-block;
+}
+.whatwedo_writeup2 button{
+    background-color: #2763E7;
+    box-shadow: 4px 4px 4px 0px #037E453D inset;
+    border-width: 0px;
+    width: 150px;
+    height: 50px;
+    gap: 2px;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+
+}
+
+/* courses */
+.courses_overall{
+    margin-top: 100px;
+}
+.course_section div img{
+    width: 533px;
+    height: 356px;
+    gap: 0px;
+    border-radius: 32px 32px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 50px;
+}
+.course_section div h2{
+    width: 482px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 43.71px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.course_section div p{
+    width: 400px;
+    height: 64px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    display: inline-block;
+}
+.course_section button{
+    width: 150px;
+    height: 50px;
+    top: 4081px;
+    left: 176px;
+    padding: 16px 32px 16px 32px;
+    gap: 2px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #FF6600;
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    border-width: 0px;
+    margin-top: 15px;
+}
+
+/* talent */
+.talent_overall{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    gap: 0px;
+    border-radius: 32px;
+    margin-top: 50px;
+
+}
+.talent{
+    width: 1195px;
+    height: 80vh;
+    background-color: black;
+    position: absolute;
+    opacity: 50%;
+    border-radius: 32px;
+}
+.talent_image{
+    width: 100%;
+    height: 80vh;
+    border-radius: 32px;
+}
+.talent_writeup{
+    width: 850px;
+    height: 228px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 70px;
+    text-align: center;
+    top: 100px;
+    color: #fff;
+    display: inline-block;
+    left: 170px;
+
+}
+.talent_button{
+    width: Fixed (421px)px;
+    height: Hug (56px)px;
+    gap: 24px;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+.talent_overall div button{
+    width: 150px;
+    height: 50px;
+    gap: 2px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #FFFFFF;    
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+.talent_overall span button{
+    width: 150px;
+    height: 50px;
+    gap: 2px;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    opacity: 0px;
+    background: transparent;    
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+/* footer */
+.footer_section1{
+    width: Fixed (199px)px;
+    height: Hug (34px)px;
+    gap: 10px;
+    opacity: 0px;
+}
+.footer_section1 img{
+    width: 111px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.footer_section2{
+    width: Fixed (199px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    opacity: 0px;
+}
+.list-container{
+    width: Fixed (199px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+.list-group-item {
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+}
+.list-group-item span {
+    border: none;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+.footer_section3 div input::placeholder{
+    font-size: 12px;
+}
+.input-group{
+    background-color: #FF6600;
+    width: 300px;
+    border-radius: 10px;
+}
+.input-group-text{
+    background-color: #2763E7;
+    width: 100px;
+    height: 40px;
+    padding: 12px;
+    gap: 2px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px #037E453D inset;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+/* registration */
+
+.registration{
+    width: Fixed (763px)px;
+    height: Hug (152px)px;
+    top: 270px;
+    left: 319px;
+    gap: 96px;
+}
+.registration p{
+    width: 400px;
+    height: Hug (48px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 10px;
+    border-bottom: 2px solid #FF6600;
+    opacity: 0px;
+    margin-left: 200px;
+}
+.registration h1{
+    width: 763px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    margin-left: 200px;
+}
+.registraion_writeup{
+    width: 871px;
+    height: 133px;
+    top: 438px;
+    left: 316px;
+    gap: 0px;
+    opacity: 0px;
+   
+}
+.registraion_writeup p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.5px;
+    text-align: left;
+    display: inline-block;
+    width: 871px;
+    height: 133px;
+    top: 438px;
+    left: 316px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.footer_icon{
+    width: 100px;
+}
+.footer_copyright{
+    width: 500px;
+}
+/* hiretalent */
+
+
+

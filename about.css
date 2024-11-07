@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* about page */
+
+body{
+    font-family:'roboto', sans-serif;
+}
+.header{
+width: Hug (1,440px)px;
+height: Hug (88px)px;
+padding: 16px 25px 16px 0px;
+gap: 10px;
+opacity: 0px;
+align-items: center;
+}
+.nav-link{
+    color: black;
+}
+
+.navbar-brand{
+    width: 176px;
+    height: 55px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.nav_end{
+    width: 250px;
+}
+.nav_end span button{
+    width: 150px;
+    height: 50px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #330099;
+    box-shadow: 4px 4px 4px 0px #6C2EE738 inset;
+}
+.nav_end button{
+    background-color: #FF6600;
+    width: 150px;
+    height: 50px;
+    padding: 16px 32px 16px 32px;
+    gap: 0px;
+    border-radius: 8px;
+    justify-content: space-between;
+    opacity: 0px;
+    border-width: 0px;
+    color: #FFFFFF;
+}
+.landing{
+    width: Hug (1,440px)px;
+    height: Hug (1,200px)px;
+    padding: 128px 64px 0px 64px;
+    gap: 10px;
+    opacity: 0px;
+}
+.welcome{
+    width: Hug (1,312px)px;
+    height: Hug (944px)px;
+    gap: 96px;
+    opacity: 0px;
+}
+.welcome_section1{
+    width: 1000px;
+    height: Hug (248px)px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.welcome_section1 div h2{
+    width: 370px;
+    height: Hug (48px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 10px;
+    /* border: 0px 0px 1px 0px; */
+    opacity: 0px;
+    border-bottom: 2px solid #FF6600;
+    margin-bottom: 10px;
+}
+
+.welcome_section1 div h1{
+    width: 500px;
+    height: 192px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: left;
+}
+.welcome_section1 div p{
+    width: 500px;
+    height: 248px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    display: inline-block;
+}
+
+.welcome_section2 img{
+width: 1000px;
+height: 400px;
+gap: 0px;
+border-radius: 32px;
+opacity: 0px;
+}
+
+/* aim and mission */
+.mission{
+width: Fixed (1,440px)px;
+height: Hug (856px)px;
+padding: 128px 64px 0px 64px;
+gap: 10px;
+opacity: 0px;
+margin-top: 0px;
+}
+.aim_mission{
+    width: Hug (866px)px;
+    height: Hug (600px)px;
+    opacity: 0px;
+}
+.aim{
+    width: Fixed (866px)px;
+    height: Hug (188px)px;
+    gap: 16px;
+    opacity: 0px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 120px;
+}
+.aim h1{
+    width: 866px;
+    height: 44px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43.71px;
+    text-align: left;
+}
+.aim p{
+    width: 866px;
+    height: 128px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.mission{
+    width: 1000px;
+    height: Hug (188px)px;
+    gap: 16px;
+    opacity: 0px;
+    text-align:left;
+    justify-content: center;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.mission h1{
+    width: 866px;
+    height: 44px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 43.71px;
+    text-align: left;
+}
+.mission p{
+    width: 866px;
+    height: 128px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+.team_overall{
+    width: Hug (1,440px)px;
+    height: Hug (877px)px;
+    padding: 128px 64px 128px 64px;
+    gap: 10px;
+    opacity: 0px;
+}
+.team{
+    width: Fixed (1,312px)px;
+    height: Hug (621px)px;
+    gap: 56px;
+    opacity: 0px;
+}
+.team_writeup{
+    width: Fill (1,312px)px;
+    height: Hug (141px)px;
+    gap: 10px;
+    opacity: 0px;
+}
+.team_writeup h1{
+    width: 1000px;
+    height: 67px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 66.83px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.team_writeup p{
+    width: 1000px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.team_picture{
+width: Fill (1,312px)px;
+height: Hug (424px)px;
+gap: 24px;
+opacity: 0px;
+margin-top: 100px;
+}
+.team_picture div{
+    width: Fill (310px)px;
+    height: Hug (424px)px;
+    gap: 11px;
+    opacity: 0px;
+}
+.team_picture div img{
+width: 250px;
+height: 250px;
+gap: 0px;
+border-radius: 16px;
+opacity: 0px;
+}
+.team_writeup div h5{
+    width: 100px;
+    height: 27px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.32px;
+    text-align: left;
+}
+
+.team_picture div h5{
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+.team_picture div p{
+    width: 100;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.86px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* talent */
+.talent_overall{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    gap: 0px;
+    border-radius: 32px;
+    margin-top: 50px;
+    left: 100px;
+
+}
+.talent{
+    width: 1195px;
+    height: 80vh;
+    background-color: black;
+    position: absolute;
+    opacity: 50%;
+    border-radius: 32px;
+}
+.talent_image{
+    width: 100%;
+    height: 80vh;
+    border-radius: 32px;
+}
+.talent_writeup{
+    width: 850px;
+    height: 228px;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 70px;
+    text-align: center;
+    top: 100px;
+    color: #fff;
+    display: inline-block;
+    left: 170px;
+}
+.talent_button{
+    width: Fixed (421px)px;
+    height: Hug (56px)px;
+    gap: 24px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+.talent_overall div button{
+    width: 150px;
+    height: 50px;
+    gap: 2px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #FFFFFF;    
+    border-width: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+.talent_overall span button{
+    width: 150px;
+    height: 50px;
+    gap: 2px;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    opacity: 0px;
+    background: transparent;    
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+/* footer */
+.footer_section1{
+    width: Fixed (199px)px;
+    height: Hug (34px)px;
+    gap: 10px;
+    opacity: 0px;
+}
+.footer_section1 img{
+    width: 111px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.footer_section2{
+    width: Fixed (199px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    opacity: 0px;
+}
+.list-container{
+    width: Fixed (199px)px;
+    height: Hug (248px)px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+.list-group-item {
+    border: none;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+}
+.list-group-item span {
+    border: none;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+.footer_section3 div input::placeholder{
+    font-size: 12px;
+}
+.input-group{
+    background-color: #FF6600;
+    width: 300px;
+    border-radius: 10px;
+}
+.input-group-text{
+    background-color: #2763E7;
+    width: 100px;
+    height: 40px;
+    padding: 12px;
+    gap: 2px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0px #037E453D inset;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+.footer_icon{
+    width: 100px;
+}
+.footer_copyright{
+    width: 500px;
+}
